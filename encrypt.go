@@ -13,14 +13,14 @@ var ErrIvLength16 = errors.New("invalid iv size must 16 bytes")
 
 const (
 	AES_CBC  = "AES_CBC"
-	AES_ECB  = "Aes_ECB"
-	AES_CFB  = "Aes_CFB"
-	DES_CBC  = "Des_CBC"
-	DES_ECB  = "Des_ECB"
-	DES_CFB  = "Des_CFB"
-	DES3_CBC = "Des3_CBC"
-	DES3_ECB = "Des3_ECB"
-	DES3_CFB = "Des3_CFB"
+	AES_ECB  = "AES_ECB"
+	AES_CFB  = "AES_CFB"
+	DES_CBC  = "DES_CBC"
+	DES_ECB  = "DES_ECB"
+	DES_CFB  = "DES_CFB"
+	DES3_CBC = "DES3_CBC"
+	DES3_ECB = "DES3_ECB"
+	DES3_CFB = "DES3_CFB"
 )
 
 type Encrypt struct {
